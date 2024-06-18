@@ -1,58 +1,128 @@
 /* Body */
 body {
+    margin: 0;
     color: white;
     background-color: #282424;
+    font-style: Georgia, serif;
+    font-size: 20px;
 }
 h1 {
+    margin:0;
     text-align: center;
 }
 h2 {
     color: #f19c9d;
 }
 
-.map {
-    width: 35%;
+
+/* Facebook Logo */
+.facebook {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
+/* Links */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Button on the header */
+.button {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Google Map */
+.map {
+    height: 600px;
+    width: 50%;
+    float: left;
+}
 .map iframe {
     height: 100%;
-    width: 50%;
-    position: absolute;
+    width: 100%;
+    position: static;
+    
 }
 
+
+/* Information on Index Page */
 .main-info {
     float: right;
-    margin-right: auto;
-    margin-left: auto;
     width: 35%;
-    margin-top: 30px;
+    margin: 3% auto 3% auto ;
+    padding-right: 5%;
 }
-
 .business-hours ul {
     list-style-type: none;
     margin: 0;
     padding: 0 30px 0px 0;
 }
 
-.left {
-    float: left;
+
+/* Header for Main Page */
+.index-header {
+    background-image: url('/images/mon_ck.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px 0 60px 0;
+    border: 1px solid white;
+    text-align: center;
+}
+.index-header h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
 }
 
-.right {
-    float: right;
-}
 
-.newline p {
-    margin: 0;
-    padding: 0;
+/* Navigation Bar */
+#mainnav {
+    border-bottom: 1px solid white;
+    background-color: #282424;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
 }
-
-/* Navigation */
 #mainnav ul {
     text-align: right;
 }
 #mainnav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
     list-style-type: none;
+}
+.resturant-name {
+    padding: 20px;
+    text-transform: uppercase;
+    float: left;
+    font-weight: bolder;
+}
+.resturant-name:hover {
+    text-decoration: none;
+}
+
+
+/* MISC */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.newline p {
+    margin: 0;
+    padding: 0;
 }
