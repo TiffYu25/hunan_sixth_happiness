@@ -1,0 +1,137 @@
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Menu Styling */
+.specials {
+    text-align: left;
+}
+.specials ul {
+    margin-top: 0;
+    display: inline-block;
+    text-align: left;
+}
+.appetizers ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.soup ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.fried-rice ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.chow-mein-lo-mein ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.egg-foo-young ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.house-specialties ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.chop-suey ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.chicken {
+    padding: 0 0 0 5px;
+    text-align: left;
+}
+.chicken ol {
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: num;
+}
+.chicken ol li:before {
+    counter-increment: num;
+    content: "C" counter(num) ". ";
+}
+.seafood {
+    padding: 0 0 0 5px;
+    text-align: left;
+}
+.seafood ol {
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: num;
+}
+.seafood ol li:before {
+    counter-increment: num;
+    content: "S" counter(num) ". ";
+}
+.beef {
+    padding: 0 0 0 5px;
+    text-align: left;
+}
+.beef ol {
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: num;
+}
+.beef ol li:before {
+    counter-increment: num;
+    content: "B" counter(num) ". ";
+}
+.vegetable ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.pork {
+    padding: 0 0 0 5px;
+    text-align: left; 
+}
+.pork ol {
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: num;
+}
+.pork ol li:before {
+    counter-increment: num;
+    content: "P" counter(num) ". ";
+}
+.sides ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.price-layout {
+    display: inline-block;
+    margin: 0;
+}
+.price-layout li {
+    padding: 0 30px 5px 5px;
+}
+.price-layout li > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.food-txt {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list-number {
+    width: 40px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    text-align: left;
+    float: left;
+}
