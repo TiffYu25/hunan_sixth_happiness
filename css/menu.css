@@ -4,42 +4,63 @@ h2 {
 
 /* Menu Styling */
 .specials {
-    text-align: left;
+    text-align: center;
 }
 .specials ul {
     margin-top: 0;
     display: inline-block;
     text-align: left;
 }
+.appetizers {
+    width: 45%;
+}
 .appetizers ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
+}
+.soup {
+    width: 45%;
 }
 .soup ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
 }
+.fried-rice {
+    width: 45%;
+}
 .fried-rice ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
+}
+.chow-mein-lo-mein {
+    width: 45%;
 }
 .chow-mein-lo-mein ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
 }
+.egg-foo-young {
+    width: 45%;
+}
 .egg-foo-young ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
 }
+.house-specialties {
+    width: 45%;
+}
 .house-specialties ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
+}
+.chop-suey {
+    width: 45%;
 }
 .chop-suey ol {
     list-style-type: none;
@@ -47,7 +68,8 @@ h2 {
     text-align: left;
 }
 .chicken {
-    padding: 0 0 0 5px;
+    width: 45%;
+    padding: 0;
     text-align: left;
 }
 .chicken ol {
@@ -55,12 +77,16 @@ h2 {
     padding-left: 0;
     counter-reset: num;
 }
+.chicken ol li {
+    padding-bottom: 10px;
+}
 .chicken ol li:before {
     counter-increment: num;
     content: "C" counter(num) ". ";
 }
 .seafood {
-    padding: 0 0 0 5px;
+    width: 45%;
+    padding: 0;
     text-align: left;
 }
 .seafood ol {
@@ -68,12 +94,16 @@ h2 {
     padding-left: 0;
     counter-reset: num;
 }
+.seafood ol li {
+    padding-bottom: 10px;
+}
 .seafood ol li:before {
     counter-increment: num;
     content: "S" counter(num) ". ";
 }
 .beef {
-    padding: 0 0 0 5px;
+    width: 45%;
+    padding: 0;
     text-align: left;
 }
 .beef ol {
@@ -81,9 +111,15 @@ h2 {
     padding-left: 0;
     counter-reset: num;
 }
+.beef ol li {
+    padding-bottom: 10px;
+}
 .beef ol li:before {
     counter-increment: num;
     content: "B" counter(num) ". ";
+}
+.vegetable {
+    width: 45%;
 }
 .vegetable ol {
     list-style-type: none;
@@ -91,7 +127,8 @@ h2 {
     text-align: left;
 }
 .pork {
-    padding: 0 0 0 5px;
+    width: 45%;
+    padding: 0;
     text-align: left; 
 }
 .pork ol {
@@ -99,9 +136,15 @@ h2 {
     padding-left: 0;
     counter-reset: num;
 }
+.pork ol li {
+    padding-bottom: 10px;
+}
 .pork ol li:before {
     counter-increment: num;
     content: "P" counter(num) ". ";
+}
+.sides {
+    width: 45%;
 }
 .sides ol {
     list-style-type: none;
@@ -113,7 +156,7 @@ h2 {
     margin: 0;
 }
 .price-layout li {
-    padding: 0 30px 5px 5px;
+    padding: 0 30px 5px 0;
 }
 .price-layout li > ul {
     display: flex;
