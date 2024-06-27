@@ -1,25 +1,40 @@
 /* Body */
 body {
     margin: 0;
-    color: white;
-    background-color: #282424;
+    color: black;
+    background-color: white;
     font-style: Georgia, serif;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
     margin:0;
     text-align: center;
+    color: white;
 }
 h2 {
-    color: #f19c9d;
+    color: #ab1f25;
 }
 footer {
-    border-top: 1px solid white;
-    padding: 20px;
+    padding: 1px;
+    clear: both;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    background-color: #ab1f25;
 }
 
 /* Facebook Logo */
-.facebook {
+.facebook:link {
+    color: black;
+}
+.facebook:hover {
+    color: black;
+}
+.facebook:visited {
+    color: black;
+}
+.facebook img {
     width: 15px;
     height: 15px;
     margin-right: 5px;
@@ -46,18 +61,21 @@ a:visited {
     border-radius: 10px;
     padding: 10px;
 }
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+}
 
 /* Google Map */
 .map {
-    height: 740px;
+    height: 800px;
     width: 50%;
     float: left;
 }
 .map iframe {
     height: 100%;
     width: 100%;
-    position: static;
-    
+    position: static;   
 }
 
 
@@ -100,40 +118,42 @@ a:visited {
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 100px 0 60px 0;
-    border: 1px solid white;
+    border-bottom: 4px solid #ab1f25;
     text-align: center;
 }
 .index-header h1 {
-    font-weight: bolder;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 
 
 /* Navigation Bar */
 #mainnav {
-    border-bottom: 1px solid white;
-    background-color: #282424;
+    border-bottom: 2px solid #ab1f25;
+    background-color: #ab1f25;
     position: fixed;
     width: 100%;
-    font-weight: bold;
 }
 #mainnav ul {
     text-align: right;
+    padding-right: 15px;
 }
 #mainnav ul li {
     display: inline;
     margin: 0 15px;
     list-style-type: none;
 }
-.resturant-name {
-    padding: 20px;
-    text-transform: uppercase;
+#mainnav img {
     float: left;
-    font-weight: bolder;
-}
-.resturant-name:hover {
-    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(2px 0 0 white) 
+            drop-shadow(0 2px 0 white)
+            drop-shadow(-2px 0 0 white) 
+            drop-shadow(0 -2px 0 white);
 }
 
 
