@@ -2,7 +2,7 @@
 body {
     margin: 0;
     color: black;
-    background-color: white;
+    background-color: #fef2e0;
     font-style: Georgia, serif;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,7 +10,7 @@ body {
 h1 {
     margin:0;
     text-align: center;
-    color: white;
+    color: #fef2e0;
 }
 h2 {
     color: #ab1f25;
@@ -20,7 +20,7 @@ footer {
     clear: both;
     font-size: 10px;
     text-align: center;
-    color: white;
+    color: #fef2e0;
     background-color: #ab1f25;
 }
 
@@ -42,22 +42,22 @@ footer {
 
 /* Links */
 a:link {
-    color: white;
+    color: #fef2e0;
     text-decoration: none;
 }
 a:hover {
-    color: white;
+    color: #fef2e0;
     text-decoration: underline;
 }
 a:visited {
-    color: white;
+    color: #fef2e0;
     text-decoration: none;
 }
 
 
 /* Button on the header */
 .button {
-    border: 1px solid white;
+    border: 1px solid #fef2e0;
     border-radius: 10px;
     padding: 10px;
 }
@@ -129,10 +129,11 @@ a:visited {
 
 /* Navigation Bar */
 #mainnav {
-    border-bottom: 2px solid #ab1f25;
+    border-bottom: 5px double #fef2e0;
     background-color: #ab1f25;
     position: fixed;
     width: 100%;
+    box-shadow: 2px 2px 4px #242424;
 }
 #mainnav ul {
     text-align: right;
@@ -150,12 +151,19 @@ a:visited {
     vertical-align: middle;
     width: 40px;
     height: 40px;
-    filter: drop-shadow(2px 0 0 white) 
-            drop-shadow(0 2px 0 white)
-            drop-shadow(-2px 0 0 white) 
-            drop-shadow(0 -2px 0 white);
+    filter: drop-shadow(2px 0 0 #fef2e0) 
+            drop-shadow(0 2px 0 #fef2e0)
+            drop-shadow(-2px 0 0 #fef2e0) 
+            drop-shadow(0 -2px 0 #fef2e0);
 }
-
+/* Portrait */
+.portrait {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    border: 5px solid #ab1f25;
+    background-color: #ab1f25;
+}
 
 /* MISC */
 .left {
@@ -163,13 +171,6 @@ a:visited {
 }
 .right {
     float: right;
-}
-.description {
-    margin: 0;
-    padding: 0 0 10px 55px;
-    text-align: left;
-    font-style: italic;
-    font-size: 18px;
 }
 .address p {
     margin: 0;
@@ -183,6 +184,8 @@ a:visited {
     margin: 0;
 }
 .small-txt {
-    margin: 5px 0 20px 0;
+    margin: 0 auto 20px auto;
     font-size: 18px;
+    text-align: center;
+    width: 50%;
 }

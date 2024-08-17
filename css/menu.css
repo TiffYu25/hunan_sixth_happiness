@@ -1,159 +1,304 @@
+/* Overall Page Styling */
 h2 {
+    margin-top: 20px;
     margin-bottom: 10px;
+}
+/* Menu Navigation */
+#menunav {
+    border-bottom: 2px solid #ab1f25;
+    background-color: #ab1f25;
+    position: fixed;
+    width: 15%;
+    text-align: center;
+    margin: 85px 0 0 10px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 4px #242424;
+    border: 5px double #fef2e0;
+}
+#menunav ul {
+    text-align: center;
+    padding: 0;
+}
+#menunav ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
 }
 
 /* Menu Styling */
-.specials {
+#specials {
+    margin-top: 10px;
+    width: 100%;
     text-align: center;
 }
-.specials ul {
+#specials ul {
     margin-top: 0;
     display: inline-block;
     text-align: left;
 }
-.appetizers {
-    width: 45%;
-}
-.appetizers ol {
-    list-style-type: none;
-    padding-left: 0;
+#specials ol {
     text-align: left;
-}
-.soup {
-    width: 45%;
-}
-.soup ol {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;
-}
-.fried-rice {
-    width: 45%;
-}
-.fried-rice ol {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;
-}
-.chow-mein-lo-mein {
-    width: 45%;
-}
-.chow-mein-lo-mein ol {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;
-}
-.egg-foo-young {
-    width: 45%;
-}
-.egg-foo-young ol {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;
-}
-.house-specialties {
-    width: 45%;
-}
-.house-specialties ol {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;
-}
-.chop-suey {
-    width: 45%;
-}
-.chop-suey ol {
-    list-style-type: none;
-    padding-left: 0;
-    text-align: left;
-}
-.chicken {
-    width: 45%;
-    padding: 0;
-    text-align: left;
-}
-.chicken ol {
-    list-style-type: none;
-    padding-left: 0;
-    counter-reset: num;
-}
-.chicken ol li {
+    width: 40%;
+    background-color: #f9dcdc;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
-.chicken ol li:before {
+.specials-description {
+    margin: 0 auto 20px auto;
+    font-size: 18px;
+    text-align: center;
+}
+.lunch-dinner {
+    width: 69%;
+    text-align: right;
+    word-spacing: 25px;
+    font-style: italic;
+    font-size: 18px;
+}
+.lunch {
+    margin: auto;
+    padding: 15px;
+    width: 25%;
+    height: 100%;
+    display: inline-block; 
+    background-color: #f9dcdc;
+}
+.lunch ul {
+    font-size: 18px;
+}
+.dinner {
+    margin: auto;
+    padding: 15px;
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    background-color: #f9dcdc;
+}
+.dinner ul {
+    font-size: 18px;
+}
+#appetizers {
+    text-align: center;
+}
+#appetizers ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#appetizers ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#soup {
+    text-align: center;
+}
+#soup ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#soup ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#fried-rice {
+    text-align: center;
+}
+#fried-rice ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#fried-rice ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#chow-mein-lo-mein {
+    text-align: center;
+}
+#chow-mein-lo-mein ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#chow-mein-lo-mein ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#egg-foo-young {
+    text-align: center;
+}
+#egg-foo-young ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#egg-foo-young ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#house-specialties {
+    text-align: center;
+}
+#house-specialties ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#house-specialties ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#chop-suey {
+    text-align: center;
+}
+#chop-suey ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    width: 50%;
+}
+#chop-suey ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+#chicken {
+    text-align: center;
+}
+#chicken ol {
+    margin: auto;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    counter-reset: num;
+    width: 50%;
+}
+#chicken ol li:before {
     counter-increment: num;
     content: "C" counter(num) ". ";
 }
-.seafood {
-    width: 45%;
-    padding: 0;
-    text-align: left;
+#chicken ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
-.seafood ol {
+#seafood {
+    text-align: center;
+}
+#seafood ol {
+    margin: auto;
     list-style-type: none;
     padding-left: 0;
+    text-align: left;
     counter-reset: num;
+    width: 50%;
 }
-.seafood ol li {
-    padding-bottom: 10px;
+#seafood ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
-.seafood ol li:before {
+#seafood ol li:before {
     counter-increment: num;
     content: "S" counter(num) ". ";
 }
-.beef {
-    width: 45%;
-    padding: 0;
-    text-align: left;
+#beef {
+    text-align: center;
 }
-.beef ol {
+#beef ol {
+    margin: auto;
     list-style-type: none;
     padding-left: 0;
+    text-align: left;
     counter-reset: num;
+    width: 50%;
 }
-.beef ol li {
-    padding-bottom: 10px;
+#beef ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
-.beef ol li:before {
+#beef ol li:before {
     counter-increment: num;
     content: "B" counter(num) ". ";
 }
-.vegetable {
-    width: 45%;
+#vegetable {
+    text-align: center;
 }
-.vegetable ol {
+#vegetable ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
+    width: 50%;
 }
-.pork {
-    width: 45%;
-    padding: 0;
-    text-align: left; 
+#vegetable ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
-.pork ol {
+#pork {
+    text-align: center;
+}
+#pork ol {
+    margin: auto;
     list-style-type: none;
     padding-left: 0;
+    text-align: left;
     counter-reset: num;
+    width: 50%;
 }
-.pork ol li {
-    padding-bottom: 10px;
+#pork ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
-.pork ol li:before {
+#pork ol li:before {
     counter-increment: num;
     content: "P" counter(num) ". ";
 }
-.sides {
-    width: 45%;
+#sides {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.sides ol {
+#sides ol {
     list-style-type: none;
     padding-left: 0;
     text-align: left;
+    width: 50%;
+}
+#sides ol li {
+    background-color: #f9dcdc;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
 }
 .price-layout {
     display: inline-block;
     margin: 0;
+}
+.price-description {
+    padding-left: 18%;
+    word-spacing: 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+.size-price {
+    width: 73%;
+    text-align: right;
+    word-spacing: 25px;
+    font-style: italic;
+    font-size: 18px;
 }
 .price-layout li {
     padding: 0 30px 5px 0;
@@ -165,11 +310,6 @@ h2 {
     margin: 0;
     padding: 0;
 }
-.food-txt {
-    width: 250px;
-    padding: 0;
-    margin: 0;
-}
 
 .custom-list-number {
     width: 40px;
@@ -177,4 +317,25 @@ h2 {
     padding: 0 10px 0 0;
     text-align: left;
     float: left;
+}
+
+.price {
+    float: right;
+    word-spacing: 20px;
+}
+
+.crab-rangoon-price {
+    float: right;
+}
+.spacing {
+    margin-left: 20px;
+}
+
+.description {
+    margin: 0;
+    padding: 10px 0 0 50px;
+    text-align: left;
+    font-style: italic;
+    font-size: 18px;
+    clear: right;
 }
