@@ -1,7 +1,8 @@
 /* Overall Page Styling */
 h2 {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
+    clear: both;
 }
 /* Menu Navigation */
 #menunav {
@@ -10,8 +11,8 @@ h2 {
     position: fixed;
     width: 15%;
     text-align: center;
-    margin: 85px 0 0 10px;
-    padding: 10px 20px;
+    margin: 20px 0 0 10px;
+    padding: 5px 20px;
     box-shadow: 2px 2px 4px #242424;
     border: 5px double #fef2e0;
 }
@@ -22,6 +23,17 @@ h2 {
 #menunav ul li {
     list-style-type: none;
     padding-bottom: 5px;
+}
+
+.anchor-adjust {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+div {
+    scroll-margin-top: 100px;
 }
 
 /* Menu Styling */
@@ -317,6 +329,7 @@ em img {
 .crab-rangoon-price {
     float: right;
 }
+
 .spacing {
     margin-left: 20px;
 }
@@ -328,4 +341,30 @@ em img {
     font-style: italic;
     font-size: 18px;
     clear: right;
+}
+
+/* Food picture styling */
+.food-pic {
+    max-width: 60%;
+    height: auto;
+    margin: 10px auto;
+    display:block;
+    border: 5px solid #ab1f25;
+}
+.big-food-pic {
+    max-width: 30%;
+    height: auto;
+    margin: 10px auto;
+    display:block;
+    border: 5px solid #ab1f25;
+}
+.side-by-side-food-pic {
+    max-width: 45%;
+    margin: 10px auto;
+}
+.side-by-side-food-pic img {
+    max-width: 45%;
+    height: auto;
+    display:inline-block;
+    border: 5px solid #ab1f25;
 }
