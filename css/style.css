@@ -70,7 +70,7 @@ a:visited {
 .map {
     height: 40rem;
     width: 50%;
-    float: left;
+    float: right;
 }
 .map iframe {
     height: 100%;
@@ -81,10 +81,8 @@ a:visited {
 
 /* Information on Index Page */
 .main-info {
-    float: right;
-    width: 35%;
-    margin: 2% auto 3% auto ;
-    padding-right: 5%;
+    float: left;
+    padding-left: 10%;
 }
 .business-hours ul {
     margin-top: 0;
