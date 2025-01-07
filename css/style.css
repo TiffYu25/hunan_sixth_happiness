@@ -1,8 +1,8 @@
-html { font-size: 1.5vw; }
+html { font-size: 20px; }
 
 /* Body */
 body {
-    margin: 4.375rem 0 0;
+    margin: 80px 0 0;
     color: black;
     background-color: #fef2e0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,9 +35,9 @@ footer {
     color: black;
 }
 .facebook img {
-    width: 0.938rem;
+    width: 18px;
     height: auto;
-    margin-right: 0.313rem;
+    margin-right: 10px;
 }
 
 /* Links */
@@ -57,20 +57,29 @@ a:visited {
 
 /* Button on the header */
 .button {
-    border: 0.063rem solid #fef2e0;
-    border-radius: 0.625rem;
-    padding: 0.625rem;
+    border: 2px solid #fef2e0;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
 }
 .button:hover {
     background-color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
 }
 
+#mainbody {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 50px;
+}
+
 /* Google Map */
 .map {
-    height: 40rem;
-    width: 50%;
-    float: left;
+    width: 600px;
+    min-height: 400px;
 }
 .map iframe {
     height: 100%;
@@ -78,14 +87,12 @@ a:visited {
     position: static;   
 }
 
-
 /* Information on Index Page */
 .main-info {
-    float: right;
-    width: 35%;
-    margin: 2% auto 3% auto ;
-    padding-right: 5%;
+    width: 500px;
+    text-align: center;
 }
+
 .business-hours ul {
     margin-top: 0;
     display: inline-block;
@@ -126,86 +133,86 @@ header h1 {
 }
 .index-header {
     background-image: url('/images/crane.png');
+    background-position: right top;
+    background-size: cover;
 }
 .menu-header {
     background-image: url('/images/feast.jpg');
+    background-position: right top;
+    background-size: cover;
 }
 
 
 /* Navigation Bar */
 #mainnav {
-    border-bottom: 0.313rem double #fef2e0;
+    border-bottom: 5px double #fef2e0;
     background-color: #ab1f25;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 4.375rem;
-    box-shadow: 0.2rem 0.2rem 0.2rem #333333;
+    height: 80px;
+    box-shadow: 1px 2px 5px #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
 }
-#mainnav ul {
-    text-align: right;
-    margin-top: 1.5rem;
-    padding-right: 0.938rem;
-}
-#mainnav ul li {
-    display: inline;
-    margin: 0 0.938rem;
-    list-style-type: none;
-}
-#mainnav img {
-    float: left;
-    padding: 0.938rem;
-    margin: 0;
-    vertical-align: middle;
-    width: 2.5rem;
-    height: 2.5rem;
-    filter: drop-shadow(0.125rem 0 0 #fef2e0) 
-            drop-shadow(0 0.125rem 0 #fef2e0)
-            drop-shadow(-0.125rem 0 0 #fef2e0) 
-            drop-shadow(0 -0.125rem 0 #fef2e0);
+#navlink {
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
 }
 
-/* Mainly for About Us Section */
-.portrait {
-    width: 40%;
+#mainnav img {
+    width: 50px;
     height: auto;
-    margin: 1.25rem 0.625rem 1.25rem 1.25rem;
-    border: 0.313rem solid #ab1f25;
+    filter: drop-shadow(3px 0 0 #fef2e0) 
+            drop-shadow(0 3px 0 #fef2e0)
+            drop-shadow(-3px 0 0 #fef2e0) 
+            drop-shadow(0 -3px 0 #fef2e0);
+}
+
+/* About Us Section */
+#aboutus-body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+}
+
+.portrait {
+    width: 500px;
+    height: auto;
+    border: 5px solid #ab1f25;
     background-color: #ab1f25;
     float: left;
     display: block;
 }
 .textbox {
-    margin: 1.25rem;
-    padding: 1.25rem;
+    width: 500px;
     background-color: #ab1f25;
-    border: 0.313rem double #fef2e0;
-    display: inline-block;
-    width: 45%;
+    border: 5px double #fef2e0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
     text-align: center;
-    vertical-align: middle;
+    color: #fef2e0;
 }
 .textbox p {
-    color: white;
-    padding: 0 1.25rem;
-    font-size: 1.20rem;
+    padding: 0 50px;
 }
 .textbox h1 {
     width: 90%;
-    padding: 0.625rem;
-    margin: 0.625rem auto 1.875rem;
-    border-top: 0.313rem double #fef2e0;
-    border-bottom: 0.313rem double #fef2e0;
+    padding-bottom: 5px;
+    margin: 5px auto;
+    border-bottom: 5px double #fef2e0;
 }
 
 /* MISC */
-.left {
-    float: left;
-}
-.right {
-    float: right;
-}
 .address p {
     margin: 0;
     padding: 0;
