@@ -132,12 +132,12 @@ header h1 {
     padding-bottom: 1.25rem;
 }
 .index-header {
-    background-image: url('../images/crane.png');
+    background-image: url('../images/misc/crane.png');
     background-position: right top;
     background-size: cover;
 }
 .menu-header {
-    background-image: url('../images/feast.jpg');
+    background-image: url('../images/misc/feast.jpg');
     background-position: right top;
     background-size: cover;
 }
