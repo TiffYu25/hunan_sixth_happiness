@@ -1,0 +1,226 @@
+{
+    "special": [
+        {
+            "name": "Kung Bao Chicken",
+            "isSpicy": true,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Chicken with Vegetables",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Pepper Chicken",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Cashew Chicken",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Mongolian Chicken",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Sweet and Sour Chicken",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Sweet and Sour Pork",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Chicken with Pea Pods",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Chicken Broccoli",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Chicken with Garlic Sauce",
+            "isSpicy": true,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Chicken Lo Mein",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Pork Lo Mein",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Curry Chicken",
+            "isSpicy": false,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Hunan Chicken",
+            "isSpicy": true,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Hunan Mixed Vegetables",
+            "isSpicy": true,
+            "lunch": "8.65",
+            "dinner": "10.95"
+        },
+        {
+            "name": "Kung Bao Shrimp",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Kung Bao Beef",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Cashew Shrimp",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Seafood Combination",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Shrimp with Vegetables",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Sweet and Sour Shrimp",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Shrimp Lo Mein",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Curry Shrimp",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Pepper Steak",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Mongolian Beef",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Shrimp Boccoli",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Beef Broccoli",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Shrimp with Garlic Sauce",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Beef with Garlic Sauce",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Beef Lo Mein",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Hunan Shrimp or Beef",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Sesame Chicken",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Orange Chicken",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "General Tso's Chicken",
+            "isSpicy": true,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Chicken Egg Foo Young",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Shrimp Egg Foo Young",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        },
+        {
+            "name": "Beef Egg Foo Young",
+            "isSpicy": false,
+            "lunch": "8.85",
+            "dinner": "11.25"
+        }
+    ]
+}
