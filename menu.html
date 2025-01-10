@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="icon" href="images/misc/logo.png">
+    <script src="misc/menu.json" type="text/json"></script>
     <script src="js/menu.js" type="text/javascript"></script>
 </head>
 <body>
@@ -18,7 +19,7 @@
         </div>
     </nav>
 
-    <nav id="menunav">
+    <!-- <nav id="menunav">
         <ul>
             <li><a href="#specials">Specials</a></li>
             <li><a href="#appetizers">Appetizers</a></li>
@@ -35,203 +36,48 @@
             <li><a href="#pork">Pork</a></li>
             <li><a href="#sides">Sides</a></li>
         </ul>
-    </nav>
+    </nav> -->
+
     <header class="menu-header">
         <h1>Menu</h1>
         <a class="button" href="misc/menu.pdf" download>Download Menu</a>
     </header>
+
     <div id="specials">
-        <div class="lunch">
-            <h2>Lunch Special</h2>
-            <div class="specials-description">
-                <p>11 AM - 3 PM</p>
-                <p>Lunch specials are served with plain fried rice or white rice.</p>
-                <p>Choose ONE of the following for lunch specials:</p>
+        <div id="specials-description">
+            <div id="lunch" class="special-desc">
+                <h2>Lunch Special</h2>
+                <div class="specials-text">
+                    <p>11 AM - 3 PM</p>
+                    <p>Lunch specials are served with plain fried rice or white rice.</p>
+                    <p>Choose ONE of the following for lunch specials:</p>
+                </div>
+                <ul>
+                    <li>Egg Roll (1)</li>
+                    <li>Soup (Won Ton, Hot &amp; Sour, Egg Drop)</li>
+                    <li>Crab Rangoon (1)</li>
+                    <li>Can of Soda (1)</li>
+                </ul>
             </div>
-            <ul>
-                <li>Egg Roll (1)</li>
-                <li>Soup (Won Ton, Hot &amp; Sour, Egg Drop)</li>
-                <li>Crab Rangoon (1)</li>
-                <li>Can of Soda (1)</li>
-            </ul>
-        </div>
-        <div class="dinner">
-            <h2>Dinner Special</h2>
-            <div class="specials-description">
-                <p>ALL DAY</p>
-                <p>Dinner specials are served with shrimp fried rice, chicken fried rice, or white rice.</p>
-                <p>Choose TWO of the following for dinner specials:</p>
+            <div id="dinner" class="special-desc">
+                <h2>Dinner Special</h2>
+                <div class="specials-text">
+                    <p>ALL DAY</p>
+                    <p>Dinner specials are served with shrimp fried rice, chicken fried rice, or white rice.</p>
+                    <p>Choose TWO of the following for dinner specials:</p>
+                </div>
+                <ul>
+                    <li>Egg Roll (1)</li>
+                    <li>Soup (Won Ton, Hot &amp; Sour, Egg Drop)</li>
+                    <li>Crab Rangoon (1)</li>
+                    <li>Can of Soda (1)</li>
+                </ul>
             </div>
-            <ul>
-                <li>Egg Roll (1)</li>
-                <li>Soup (Won Ton, Hot &amp; Sour, Egg Drop)</li>
-                <li>Crab Rangoon (1)</li>
-                <li>Can of Soda (1)</li>
-            </ul>
         </div>
 
         <p class="lunch-dinner-price">Lunch Dinner</p>
-        <ol class="lunch-dinner-layout">
-            <li class="spicy">
-                <span>Kung Bao Chicken</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Chicken with Vegetables</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Pepper Chicken</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Cashew Chicken</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Mongolian Chicken</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Sweet and Sour Chicken</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Sweet and Sour Pork</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Chicken with Pea Pods</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Chicken Broccoli</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li class="spicy">
-                <span>Chicken with Garlic Sauce</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Chicken Lo Mein</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Pork Lo Mein</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Curry Chicken</span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li class="spicy">
-                <span>Hunan Chicken</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li class="spicy">
-                <span>Hunan Mixed Vegetables</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.65 $10.95</span>
-            </li>
-            <li>
-                <span>Kung Bao Shrimp</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>Kung Bao Beef</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>Cashew Shrimp</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Seafood Combination</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Shrimp with Vegetables</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Sweet and Sour Shrimp</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Shrimp Lo Mein</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Curry Shrimp</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Pepper Steak</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Mongolian Beef</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Shrimp Broccoli</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Beef Broccoli</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>Shrimp with Garlic Sauce</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>Beef with Garlic Sauce</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Beef Lo Mein</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>Hunan Shrimp or Beef</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Sesame Chicken</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>Orange Chicken</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li class="spicy">
-                <span>General Tso's Chicken</span>
-                <span><em><img src="images/misc/chili.png" alt="chili pepper to indicate dish is spicy"></em></span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Chicken Egg Foo Young</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Shrimp Egg Foo Young</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-            <li>
-                <span>Beef Egg Foo Young</span>
-                <span class="price">$8.85 $11.25</span>
-            </li>
-        </ol>
+
+        <div id="specials-container"></div>
     </div>
 
     <div id="appetizers">

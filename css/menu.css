@@ -97,47 +97,62 @@ em img {
     margin: 0;
 }
 
+/* New changes */
+.spicy {
+    color:#ab1f25;
+}
+.list-number {
+    padding-right: 16px;
+}
+.food-item {
+    display: flex;
+    justify-content: space-between;
+}
+.food-item-price {
+    display: flex;
+    gap: 20px;
+}
 
 /* Specific Menu Styling */
 
 #specials {
-    margin-top: 0.625rem;
-    width: 100%;
     text-align: center;
 }
 #specials ul {
-    margin-top: 0;
-    display: inline-block;
     text-align: left;
+    font-size: 0.85rem;
 }
 
-.specials-description {
+#specials-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.special-desc {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.specials-text {
     margin: 0 auto 1.25rem auto;
     font-size: 0.9rem;
     text-align: center;
 }
 
-.lunch {
-    margin: auto;
-    padding: 0.938rem;
-    width: 25%;
-    height: 100%;
-    display: inline-block; 
+#lunch {
+    padding: 20px;
     background-color: #f9dcdc;
 }
-.lunch ul {
-    font-size: 0.85rem;
-}
-.dinner {
-    margin: auto;
-    padding: 0.938rem;
-    width: 25%;
-    height: 100%;
-    display: inline-block;
+#dinner {
+    padding: 20px;
     background-color: #f9dcdc;
 }
-.dinner ul {
-    font-size: 0.85rem;
+
+#specials-container {
+    background-color: #f9dcdc;
+    padding: 20px;
 }
 
 .lunch-dinner-price {
@@ -148,26 +163,6 @@ em img {
     font-size: 0.85rem;
     margin-bottom: 0.25rem;
 }
-.lunch-dinner-layout {
-    text-align: left;
-    width: 40%;
-    background-color: #f9dcdc;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-    display: inline-block;
-    margin: 0;
-}
-.lunch-dinner-layout li {
-    padding: 0 1.875rem 0.313rem 0;
-}
-.lunch-dinner-layout li > ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 
 #appetizers {
     text-align: center;
