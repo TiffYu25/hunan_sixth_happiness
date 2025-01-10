@@ -11,7 +11,7 @@ let specials_create = function(data) {
         foodItemName.classList.add("food-item-name");
         let listNumber = document.createElement("span");
         listNumber.classList.add("list-number");
-        listNumber.appendChild(document.createTextNode((i+1) + "."))
+        listNumber.appendChild(document.createTextNode(food.id + "."))
         let name = document.createElement("span");
         name.appendChild(document.createTextNode(food.name))
 

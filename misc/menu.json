@@ -1,226 +1,374 @@
 {
     "specials": [
         {
+            "id": "1",
             "name": "Kung Bao Chicken",
             "isSpicy": true,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "2",
             "name": "Chicken with Vegetables",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "3",
             "name": "Pepper Chicken",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "4",
             "name": "Cashew Chicken",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "5",
             "name": "Mongolian Chicken",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "6",
             "name": "Sweet and Sour Chicken",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "7",
             "name": "Sweet and Sour Pork",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "8",
             "name": "Chicken with Pea Pods",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "9",
             "name": "Chicken Broccoli",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "10",
             "name": "Chicken with Garlic Sauce",
             "isSpicy": true,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "11",
             "name": "Chicken Lo Mein",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "12",
             "name": "Pork Lo Mein",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "13",
             "name": "Curry Chicken",
             "isSpicy": false,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "14",
             "name": "Hunan Chicken",
             "isSpicy": true,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "15",
             "name": "Hunan Mixed Vegetables",
             "isSpicy": true,
             "lunch": "8.65",
             "dinner": "10.95"
         },
         {
+            "id": "16",
             "name": "Kung Bao Shrimp",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "17",
             "name": "Kung Bao Beef",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "18",
             "name": "Cashew Shrimp",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "19",
             "name": "Seafood Combination",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "20",
             "name": "Shrimp with Vegetables",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "21",
             "name": "Sweet and Sour Shrimp",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "22",
             "name": "Shrimp Lo Mein",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "23",
             "name": "Curry Shrimp",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "24",
             "name": "Pepper Steak",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "25",
             "name": "Mongolian Beef",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "26",
             "name": "Shrimp Boccoli",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "27",
             "name": "Beef Broccoli",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "28",
             "name": "Shrimp with Garlic Sauce",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "29",
             "name": "Beef with Garlic Sauce",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "30",
             "name": "Beef Lo Mein",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "31",
             "name": "Hunan Shrimp or Beef",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "32",
             "name": "Sesame Chicken",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "33",
             "name": "Orange Chicken",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "34",
             "name": "General Tso's Chicken",
             "isSpicy": true,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "35",
             "name": "Chicken Egg Foo Young",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "36",
             "name": "Shrimp Egg Foo Young",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
         },
         {
+            "id": "37",
             "name": "Beef Egg Foo Young",
             "isSpicy": false,
             "lunch": "8.85",
             "dinner": "11.25"
+        }
+    ]
+    ,
+    "appetizers": [
+        {
+            "id": "A1",
+            "name": "Egg Roll",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 1,
+                "price": "2.00"
+            },
+            "desc": "A delicious combination of shrimp, chicken, pork, and vegetables."
+        },
+        {
+            "id": "A2",
+            "name": "Shrimp Toast",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 6,
+                "price": "6.85"
+            },
+            "desc": "Shrimp minced with water chestnuts and unique spices dipped in egg batter and deep fried."
+        },
+        {
+            "id": "A3",
+            "name": "Pot Stickers",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 6,
+                "price": "6.85"
+            },
+            "desc": "Pan fried dumplings filled with ground pork and vegetables. ALLOW 30 MINUTES TO COOK."
+        },
+        {
+            "id": "A4",
+            "name": "Fried Won Ton",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 8,
+                "price": "2.55"
+            },
+            "desc": "Plain won ton skin fried as a crispy treat. NO MEAT."
+        },
+        {
+            "id": "A5",
+            "name": "Sate Beef",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 4,
+                "price": "7.25"
+            },
+            "desc": "Marinated slices of barbecue beef on skewers."
+        },
+        {
+            "id": "A6",
+            "name": "Teriyaki Chicken",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 4,
+                "price": "6.65"
+            },
+            "desc": "Slices of marinated chicken glazed with teriyaki sauce on skewers.",
+            "image": "../images/food/teriaki_ck.png"
+        },
+        {
+            "id": "A7",
+            "name": "Barbecue Pork",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 4,
+                "price": "6.85"
+            },
+            "desc": "Slices of pork marinated in aromatic spices and topped off with our homemade BBQ sauce."
+        },
+        {
+            "id": "A8",
+            "name": "Barbecue Ribs",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 4,
+                "price": "7.25"
+            },
+            "desc": "Pork ribs marinated in spices and glazed with our homemade BBQ sauce.",
+            "image": "../images/food/bbq_ribs.png"
+        },
+        {
+            "id": "A9",
+            "name": "Fried Shrimp",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 6,
+                "price": "6.85"
+            },
+            "desc": "Marinated large shrimp battered and fried as a crispy treat.",
+            "image": "../images/food/fried_shr.png"
+        },
+        {
+            "id": "A11",
+            "name": "Crab Rangoons",
+            "isSpicy": false,
+            "price1": {
+                "quantity": 3,
+                "price": "3.75"
+            },
+            "price2": {
+                "quantity": 6,
+                "price": "6.65"
+            },
+            "desc": "A delicious combination of crab, cream cheese, and cheese.",
+            "image": "../images/food/crab_rangoon.png"
         }
     ]
 }
