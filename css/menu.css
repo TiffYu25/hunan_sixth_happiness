@@ -130,24 +130,17 @@ em img {
     gap: 20px;
 }
 
-.special-desc {
-    flex-grow: 1;
-    width: 50%;
-}
-
 .specials-text {
     margin: 0 auto 1.25rem auto;
     font-size: 0.9rem;
     text-align: center;
 }
 
-#lunch {
+.special-box {
     padding: 20px;
     background-color: #f9dcdc;
-}
-#dinner {
-    padding: 20px;
-    background-color: #f9dcdc;
+    flex-grow: 1;
+    width: 50%;
 }
 
 #specials-container {

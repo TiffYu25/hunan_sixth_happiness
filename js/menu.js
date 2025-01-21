@@ -49,10 +49,17 @@ let specials_create = function(data) {
     }
 }
 
+let appetizers_create = function(data) {
+    for (let i = 0; i < data.length; i++) {
+        console.log(data[i])
+    }
+}
+
 window.onload = function () {
     fetch('../misc/menu.json')
         .then((res) => res.json())
         .then(data => {
             specials_create(data.specials);
+            appetizers_create(data.appetizers);
         });
 }
